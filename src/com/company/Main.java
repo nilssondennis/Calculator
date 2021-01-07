@@ -47,7 +47,7 @@ public class Main {
                 }else if (userMethod.equals("/")){
                     sum = userInt1 / userInt2;
                 }
-                System.out.println("The total sum is: " + sum + "\n");
+                System.out.println("The total value is: " + sum + "\n");
                 break;
         }
 
