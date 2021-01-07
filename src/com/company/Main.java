@@ -28,11 +28,11 @@ public class Main {
 
         switch(userMenuInput){
             case "1":
-                System.out.println("Choose a method");
+                System.out.println("Please choose a method to use: ");
                 userMethod = myScanner.nextLine();
                 break;
             case "2":
-                System.out.println("Please input 2 numbers");
+                System.out.println("Please input 6 numbers");
                 userInt1 = myScanner.nextInt();
                 userInt2 = myScanner.nextInt();
                 System.out.println("Thanks, you have chosen numbers: " + userInt1 + " " + userInt2);
